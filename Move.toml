@@ -1,0 +1,16 @@
+[package]
+name = "energytrade"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x33ddcaedd7f2f6dd4a3c3807025c58447520d9b85b9a778692f4a5155657e102"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
